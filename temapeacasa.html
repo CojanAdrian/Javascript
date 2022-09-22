@@ -1,0 +1,14 @@
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <title>Document</title>
+ </head>
+ <body>
+    <div id="divWithFirstName"></div>
+   <script>
+     let firstName = prompt("What is your name ?");
+     let htmlElement = document.getElementById("divWithFirstName");
+     htmlElement.innerHTML = `<h1>${firstName}</h1>`;
+   </script>
+ </body>
+</html>
